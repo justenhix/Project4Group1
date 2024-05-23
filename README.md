@@ -28,3 +28,5 @@ New Data Frame
 
 Scatterplots:
   Comorbidities with relation to Death Event (Platelets, Serum Creatinine, Creatinine, Serum Sodium, Ejection Fraction, Time, and Age)
+
+Import Spark and Display New DataFrame
