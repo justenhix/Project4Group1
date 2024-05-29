@@ -58,7 +58,37 @@ This dataset contains the medical records of 299 patients from Cleveland, Hungar
 
 **Results**
 
+1. Confusion Matrix for Random Forest Classifier
 
+   ![image](https://github.com/justenhix/Project4Group1/assets/148804724/8cdc89c1-1905-425e-ad63-48482bada91e)
+
+2. Feature importance Bar Graph
+
+   ![image](https://github.com/justenhix/Project4Group1/assets/148804724/4dc75120-f07f-44d7-ba60-267f63a1fe4a)
+
+3. Confusion Matrix for Logistic Regression
+
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/c8d3fa6c-ea32-455c-ba00-5525f0588bf6)
+
+4. Plot of Death events for patients with their Anemia Status
+
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/9d23b6b4-58b7-481c-8442-35a8c33ee7e6)
+
+5. Plot of Death events for patients w.r.t to Diabetes(sugar level)
+
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/2c6c438f-cfd1-4eb2-a9af-592128b6b1ae)
+
+6. Scatter plot for 'age' vs 'serum_creatinine'(high when kidney function declines)
+
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/d199bbb5-46a0-4d1b-a7d6-2b79c617a5b6)
+
+7. Plot of 'age' vs. 'ejection_fraction'(amount of blood the left ventricle of the heart pumps out to your body with each heartbeat)
+
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/eeac1e05-ecd8-4a4e-a231-afda969ada92)
+
+8. Plot of 'age' vs. 'time'
+
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/e2186d9e-1bed-4c9b-b421-a9fcb00d9370)
 
 
 **Conclusions**
