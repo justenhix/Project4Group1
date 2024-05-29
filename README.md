@@ -1,32 +1,81 @@
-# Project4Group1
+# Project_4: Building Machine Learning Models for Heart Patients and predicting which Model is better
 
-Skillsets:
+**Overview and Purpose**
 
-Import CSV
+We have chosen data for 299 patients who had heart disease. This data is collected during the follow-up period and try to predict if the patient die or not depending on their medical history with certain features.
 
-Sklearn Train Data, Test Data
+**Key Objectives:**
 
-Logistic Regression
+1. Data Exploration: Dive into open source data from UCI Machine Learning Repository which is  collection of databases, domain theories, and data generators that are used by the machine learning community for the empirical analysis of machine learning algorithms.
+2. Feature Importance and Relation: There are total 14 features given for each patient including (Anaemia, High blood pressure, Creatinine phosphokinase, Diabetes, Ejection fraction, Platelets, Sex, Serum creatinine level, Serum sodium level, Smoking, Time, DEATH_EVENT) and predicting death_events and understand which factors are most predictive of the outcome. 
+3. Machine Learning Model: Building 2 machine learning models - Random Forest Classifier and Logistic Regression while comparing and predicting the death_event for the patients who has certain history during their visits to the doctor and suggesting which is the better model.
+4. Interpretation: 
+ 
 
-Fit Data
+**Team Members:**
 
-Training Data Score 83.3%
+  	Justin Hix
+   
+  	Payal Bansal
+  
+   	Sheena Picket
 
-Testing Data Score 77.3%
+**Ethical Considerations**
 
-Predictions of Data
+**Data Source**
 
-Accuracy Score of 77.3%
+We have used Open source data from (https://archive.ics.uci.edu/dataset/519/heart+failure+clinical+records).
+This dataset contains the medical records of 299 patients from Cleveland, Hungary, Switzerland, and the VA Long Beach who had heart failure, data collected during their follow-up period, where each patient profile has 13 clinical features.
 
-Classification Report
 
-Kmeans with 2 Clusters
+**Technologies Used**
 
-Predictions using Fit Data
+1. Programming Language: Python
+2. Libraries and Modules: 
+	- Pandas: For data manipulation and analysis 
+	- Spark SQL: For data retrieval from csv file.
+	- NumPy: For numerical operations and array manipulations 
+	- Plotly and Ployly.Express: Library used to create visualizations
+   	- Seaborn:  Used to visualize distributions
+	- sklearn: For RandomForestClassifer, Logistic Regression model, Confusion matrix, classification report, accuracy score
+3. Integrated Development Environment (IDE): Jupyter Notebook: Used for writing, testing, and debugging the Python script.
+6. Version Control: Git: Used for version control and collaborative development.
+7. Database: Spark SQL 
+8. Project Documentation: README.md: For project documentation and instructions.
 
-New Data Frame
+**Data Cleaning, Model creation and Prediction Process**
 
-Scatterplots:
-  Comorbidities with relation to Death Event (Platelets, Serum Creatinine, Creatinine, Serum Sodium, Ejection Fraction, Time, and Age)
+1. Do the required imports, initialize the 'findspark', create a Spark session and read the csv file and store it in a DataFrame.
+2. Data Preprocessing that includes Feature and Target separation. Here 'DEATH_EVENT' is our target variable and rest are selected as features.
+3. Converting the Spark DataFrame in Pandas DataFrame and split the dataset into training and testing datasets.
+4. Then we create a Standard Scaler instance, fit it on training dataset, scaled the data and create a Random Forest Classifier and fit that into training data.
+5. Make prediction for the testing dataset and finally calculate accuracy score and generate the confusion matrix for the model.
+6. Calculate the feature importance and create a bar graph to visually see the results. 
+7. Next we create a Logistic Regression model, fit the model onto training dataset and getting the score for training and testing datasets.
+8. We make the predictions on testing data and finally get the accuracy score for model. We create the confusion matrix and classification report for the model.
+9. We create some bar graphs for features having Boolean values and scatter plots for other feature with 'DEATH_EVENT'.
 
-Import Spark and Display New DataFrame
+
+**Results**
+
+
+
+
+**Conclusions**
+
+While we compare the Random Forest Classifier model with Logistic Regression model, we can see that Model1 has slightly higher accuracy as compared to Model2. Also, Model 1 performs better overall, particularly in terms of accuracy and the performance metrics for class 1 (Comorbidity). So Model1 is more preferred due to its higher accuracy and classification matrices.
+
+
+**Implications/Limitations**
+
+1. Feature Limitation: The dataset contains only 14 features whereas it is indicated that there are total 76 attributes which are required to accurately diagnose the heart disease. Due to limited features there are chances we might not capture all aspects that might be important. Important features such as genetic information, lifestyle factors, and detailed medical history are not included.
+
+2. Static Nature: The dataset is static and does not account for temporal changes or trends in patient health status over time. This limits the ability to develop models that can handle time-series data or predict the progression of heart disease.
+
+3. Lack of Demographic Diversity: The dataset may not be representative of the broader population, as it could be biased towards certain demographics, such as age, gender, or ethnicity. This limits the ability of the model to generalize to different populations.
+
+4. Small Sample Size: The dataset contains a relatively small number of samples, which may limit the generalizability of the models trained on it. Small datasets can also lead to overfitting, where the model performs well on the training data but poorly on new, unseen data.
+
+
+
+
