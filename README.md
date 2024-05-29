@@ -78,17 +78,23 @@ This dataset contains the medical records of 299 patients from Cleveland, Hungar
 
 ![image](https://github.com/justenhix/Project4Group1/assets/148804724/2c6c438f-cfd1-4eb2-a9af-592128b6b1ae)
 
-6. Scatter plot for 'age' vs 'serum_creatinine'(high when kidney function declines)
+6. Scatter plot for age vs creatinine_phosphokinase(help diagnose and monitor various conditions related to muscle damage, heart conditions, and other medical issues.)
 
-![image](https://github.com/justenhix/Project4Group1/assets/148804724/d199bbb5-46a0-4d1b-a7d6-2b79c617a5b6)
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/26b887fd-a8bb-43d3-88ff-311c99129c46)
 
-7. Plot of 'age' vs. 'ejection_fraction'(amount of blood the left ventricle of the heart pumps out to your body with each heartbeat)
+7. Scatter plot for age vs platelets(small blood cells that help stop bleeding by forming clots)
 
-![image](https://github.com/justenhix/Project4Group1/assets/148804724/eeac1e05-ecd8-4a4e-a231-afda969ada92)
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/4281b66d-a99a-4cfd-97d7-81f12524790a)
 
-8. Plot of 'age' vs. 'time'
+8. Box Plot of Ejection Fraction vs. DEATH_EVENT
 
-![image](https://github.com/justenhix/Project4Group1/assets/148804724/e2186d9e-1bed-4c9b-b421-a9fcb00d9370)
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/821020d2-51cc-4292-9fe2-5cef60be2b1e)
+
+9. Box Plot of Serum Creatinine vs. DEATH_EVENT
+
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/e08444ae-6575-4797-9d36-e16a4ccb99a8)
+
+
 
 
 **Conclusions**
