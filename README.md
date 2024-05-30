@@ -54,6 +54,7 @@ This dataset contains the medical records of 299 patients from Cleveland, Hungar
 7. Next we create a Logistic Regression model, fit the model onto training dataset and getting the score for training and testing datasets.
 8. We make the predictions on testing data and finally get the accuracy score for model. We create the confusion matrix and classification report for the model.
 9. We create some bar graphs for features having Boolean values and scatter plots for other feature with 'DEATH_EVENT'.
+10. Create few Box Plot for some features with 'DEATH_EVENT'.
 
 
 **Results**
