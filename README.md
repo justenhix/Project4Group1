@@ -14,7 +14,7 @@ We have chosen data for 299 patients who had heart disease. This data is collect
 
 **Team Members:**
 
-  	Justin Hix
+  	Justen Hix
    
   	Payal Bansal
   
@@ -61,11 +61,11 @@ This dataset contains the medical records of 299 patients from Cleveland, Hungar
 
 1. Confusion Matrix for Random Forest Classifier
 
-   ![image](https://github.com/justenhix/Project4Group1/assets/148804724/8cdc89c1-1905-425e-ad63-48482bada91e)
+ ![image](https://github.com/justenhix/Project4Group1/assets/148804724/8cdc89c1-1905-425e-ad63-48482bada91e)
 
 2. Feature importance Bar Graph
 
-   ![image](https://github.com/justenhix/Project4Group1/assets/148804724/4dc75120-f07f-44d7-ba60-267f63a1fe4a)
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/4dc75120-f07f-44d7-ba60-267f63a1fe4a)
 
 3. Confusion Matrix for Logistic Regression
 
