@@ -56,12 +56,15 @@ This dataset contains the medical records of 299 patients from Cleveland, Hungar
 9. We create some bar graphs for features having Boolean values and scatter plots for other feature with 'DEATH_EVENT'.
 10. Create few Box Plot for some features with 'DEATH_EVENT'.
 
-** Model Optimization**
+**Model Optimization**
 
 1. We have checked if there are any missing values and then delete if there are any.
 2. We run are Random Forest Model again but the accuracy comes out exact same
 3. Secondly, we used ross-validation technique which helps to ensure that the model's performance is not just good on the training data but also on unseen data.
 4. The mean Cross-Validation Accuracy comes out to be 83.9% which indicates the model to be robust and not overly sensitive to different subsets of the data.
+
+![image](https://github.com/justenhix/Project4Group1/assets/148804724/73ca6e2c-f368-43b1-9d75-c120db94074e)
+
 
 **Results**
 
